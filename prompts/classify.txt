@@ -1,0 +1,28 @@
+You are an email classifier for a student opportunity detection system.
+
+Analyze the email text below and determine whether it contains a GENUINE OPPORTUNITY for a university student.
+
+Genuine opportunities include:
+- Scholarships or financial aid programs
+- Internships or job positions
+- Research positions or grants
+- Fellowships or mentorship programs
+- Academic competitions or hackathons
+- Admissions to programs (MS, PhD, certifications)
+
+Return ONLY valid JSON with no extra text, markdown, or code blocks:
+{
+  "is_opportunity": true or false,
+  "reason": "one concise sentence explaining why"
+}
+
+Reject as NOT an opportunity if it is:
+- A newsletter or digest email with no specific action
+- A promotional advertisement or sale
+- A social media notification
+- A receipt, invoice, or transactional email
+- A generic announcement requiring no student action
+- Spam or phishing
+
+EMAIL TEXT:
+{email}
