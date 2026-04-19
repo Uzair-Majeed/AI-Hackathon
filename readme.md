@@ -91,7 +91,7 @@ Built for the **SOFTEC 2026 AI Hackathon**, the Opportunity Inbox Copilot native
 
 ---
 
-## 👥 Team
+## 👥 Team NASCON Delegation 2026
 
 * **Uzair Majeed** — 23i-3063
 * **Rizwan Saeed** — 23i-3009
